@@ -1,0 +1,176 @@
+html {
+    position: relative;
+    z-index: 0;
+}
+
+#day:hover,
+#week:hover,
+#month:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.ellips:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+#content {
+    display: flex;
+    width: 700px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.user-style {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+    height: 200px;
+    padding: 15px 15px 10px 15px;
+}
+
+aside {
+    width: 150px;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+    color: hsl(236, 100%, 87%);
+}
+
+aside img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+h6 {
+    font-weight: 100;
+}
+
+#username {
+    margin-top: 25px;
+}
+
+#username h1 {
+    margin-top: -25px;
+    font-weight: 100;
+}
+
+#time-control {
+    background-color: hsl(235, 46%, 20%);
+    margin-top: -30px;
+    height: 100px;
+    position: relative;
+    padding: 50px 15px 20px 15px;
+    z-index: -1;
+    border-radius: 0 0 10px 10px;
+}
+
+#time-control p {
+    font-size: 0.9rem;
+}
+
+#time-control p:nth-child(2),
+#time-control p:nth-child(3) {
+    margin-top: -5px;
+}
+
+
+/* styling for the activity section begins */
+
+#first-row,
+#second-row {
+    display: flex;
+    margin-left: 15px;
+    position: relative;
+}
+
+#first-row {
+    margin-bottom: 26px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    margin: -5px 0 0 110px;
+    position: relative;
+    z-index: -1;
+}
+
+.top img,
+.top p {
+    display: inline;
+}
+
+.top p {
+    font-size: 0.8rem;
+}
+
+.icon {
+    position: relative;
+    z-index: 0;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.top img {
+    float: right;
+    margin-top: 7px;
+}
+
+section {
+    margin-right: 15px;
+}
+
+#work-icon {
+    background-color: hsl(15, 100%, 70%);
+}
+
+#play-icon {
+    background-color: hsl(195, 74%, 62%);
+}
+
+#study-icon {
+    background-color: hsl(348, 100%, 68%);
+}
+
+#exercise-icon {
+    background-color: hsl(145, 58%, 55%);
+}
+
+#social-icon {
+    background-color: hsl(264, 64%, 52%);
+}
+
+#self-care-icon {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.card-body {
+    background-color: hsl(235, 46%, 20%);
+    padding: 16px 12px;
+    position: relative;
+    z-index: 1;
+    margin-top: -12px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.previous {
+    font-size: 0.7rem;
+    color: hsl(236, 100%, 87%);
+}

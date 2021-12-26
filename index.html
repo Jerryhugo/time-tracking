@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on ;/'s device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+    <div id="content">
+        <aside>
+            <div class="user-style">
+                <img src="./images/image-jeremy.png" alt="user-image">
+                <div id="username">
+                    <h6>Report for </h6>
+                    <h1>Jeremy Robson</h1>
+                </div>
+            </div>
+            <div id="time-control">
+                <p id="day" class="active">Daily</p>
+                <p id="week" class="">Weekly</p>
+                <p id="month" class="">Monthly</p>
+            </div>
+
+        </aside>
+
+        <div id="details">
+            <div id="first-row">
+                <section id="work">
+                    <div id="work-icon" class="icon">
+                        <img src="./images/icon-work.svg" alt="work-icon">
+                    </div>
+                    <div class="card-body">
+                        <div class="top">
+                            <p>Work</p>
+                            <img class="ellips" src="./images/icon-ellipsis.svg" alt="ellipsis-icon">
+                        </div>
+                        <div class="ref">
+                            <h2>5hrs</h2>
+                            <p class="previous">Yesterday - 12hrs </p>
+                        </div>
+
+
+                    </div>
+                </section>
+
+                <section id="play">
+                    <div id="play-icon" class="icon">
+                        <img src="./images/icon-play.svg" alt="play-icon">
+                    </div>
+                    <div class="card-body">
+                        <div class="top">
+                            <p>Play</p>
+                            <img class="ellips" src="./images/icon-ellipsis.svg" alt="ellipsis-icon">
+                        </div>
+
+                        <div class="ref">
+                            <h2>5hrs</h2>
+                            <p class="previous">Yesterday - 12hrs </p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="study">
+                    <div id="study-icon" class="icon">
+                        <img src="./images/icon-study.svg" alt="study-icon">
+                    </div>
+                    <div class="card-body">
+                        <div class="top">
+                            <p>Study</p>
+                            <img class="ellips" src="./images/icon-ellipsis.svg" alt="ellipsis-icon">
+                        </div>
+
+                        <div class="ref">
+                            <h2>5hrs</h2>
+                            <p class="previous">Yesterday - 12hrs </p>
+                        </div>
+
+                    </div>
+                </section>
+
+
+            </div>
+
+            <div id="second-row">
+                <section id="exercise">
+                    <div id="exercise-icon" class="icon">
+                        <img src="./images/icon-exercise.svg" alt="exercise-icon">
+                    </div>
+                    <div class="card-body">
+                        <div class="top">
+                            <p>Exercise</p>
+                            <img class="ellips" src="./images/icon-ellipsis.svg" alt="ellipsis-icon">
+                        </div>
+
+                        <div class="ref">
+                            <h2>5hrs</h2>
+                            <p class="previous">Yesterday - 12hrs </p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="social">
+                    <div id="social-icon" class="icon">
+                        <img src="./images/icon-social.svg" alt="social-icon">
+                    </div>
+                    <div class="card-body">
+                        <div class="top">
+                            <p>Social</p>
+                            <img class="ellips" src="./images/icon-ellipsis.svg" alt="ellipsis-icon">
+                        </div>
+
+                        <div class="ref">
+                            <h2>5hrs</h2>
+                            <p class="previous">Yesterday - 12hrs </p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="self-care">
+                    <div id="self-care-icon" class="icon">
+                        <img src="./images/icon-self-care.svg" alt="self-care-icon">
+                    </div>
+                    <div class="card-body">
+                        <div class="top">
+                            <p>Self Care</p>
+                            <img class="ellips" src="./images/icon-ellipsis.svg" alt="ellipsis-icon">
+                        </div>
+
+                        <div class="ref">
+                            <h2>5hrs</h2>
+                            <p class="previous">Yesterday - 12hrs </p>
+                        </div>
+
+                    </div>
+                </section>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
